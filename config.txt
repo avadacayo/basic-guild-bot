@@ -17,15 +17,18 @@ partySkill Sacrament{
 partySkill Blessing{
 	target_whenStatusInactive Blessing
 	target_isGuild 
+	target_isNotJob Priest,High Priest,Arch Bishop
 	notPartyOnly 1
 }
 partySkill Increase AGI{
 	target_whenStatusInactive Increase AGI
 	target_isGuild 
+	target_isNotJob Priest,High Priest,Arch Bishop
 	notPartyOnly 1
 }
 partySkill Impositio Manus{
 	target_whenStatusInactive Impositio Manus
+	target_isNotJob Priest,High Priest,Arch Bishop, Wizard,High Wizard,Warlock
 	target_isGuild 
 	notPartyOnly 1
 }
